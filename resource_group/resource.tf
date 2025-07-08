@@ -20,7 +20,3 @@ resource "azurerm_resource_group" "rg4" {
   location = "Central India"
 }
 
-resource "azurerm_resource_group" "rg-ram" {
-  name     = "app-rg-ram"
-  location = "Central India"
-}
