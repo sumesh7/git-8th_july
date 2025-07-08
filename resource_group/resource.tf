@@ -25,3 +25,8 @@ resource "azurerm_resource_group" "rg-ram" {
   location = "Central India"
 }
 
+resource "azurerm_resource_group" "rg-syam" {
+  name     = "app-rg-syam"
+  location = "Central India"
+}
+
